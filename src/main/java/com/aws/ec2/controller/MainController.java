@@ -9,7 +9,7 @@ public class MainController {
 	@GetMapping("/hello")
 	public String hello() {
 		
-		return "Spring Boot Application Deployed in EC2 Sucesfully Using CICD";
+		return "Spring Boot Application Deployed in github  in EC2 Sucesfully Using CICD";
 	}
 
 }
