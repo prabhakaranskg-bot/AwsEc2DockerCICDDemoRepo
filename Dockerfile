@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Copy SSL certificate to container
-COPY src/main/resources/ec2.p12 /app/resources/ec2.p12
+COPY src/main/resources /app/resources
 # Copy JAR file
 COPY target/AwsEc2DockerCICDDemo-0.0.1-SNAPSHOT.jar app.jar
 
